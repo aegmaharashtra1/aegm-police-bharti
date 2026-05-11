@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html { scroll-behavior: smooth; }
+  body { font-family: 'DM Sans', sans-serif; background: #fff; color: #0F0F0F; -webkit-font-smoothing: antialiased; }
+  h1,h2,h3,h4,h5 { font-family: 'Rajdhani', sans-serif; font-weight: 700; }
+}
+
+@layer components {
+  .section-pad   { @apply px-4 py-16 md:px-10 lg:px-20 xl:px-28; }
+  .btn-primary   { @apply bg-aeg-orange hover:bg-aeg-orange-dark text-white font-semibold px-6 py-3 transition-all duration-200 inline-flex items-center gap-2 text-sm cursor-pointer; }
+  .btn-outline   { @apply border-2 border-white text-white hover:bg-white hover:text-aeg-dark font-semibold px-6 py-3 transition-all duration-200 inline-flex items-center gap-2 text-sm cursor-pointer; }
+  .btn-navy      { @apply bg-aeg-navy hover:bg-aeg-navy-light text-white font-semibold px-6 py-3 transition-all duration-200 inline-flex items-center gap-2 text-sm cursor-pointer; }
+  .section-title { @apply font-heading text-4xl md:text-5xl font-bold text-aeg-navy leading-tight; }
+  .accent-bar    { @apply block w-12 h-1 bg-aeg-orange mt-3 mb-6; }
+  .card          { @apply bg-white border border-aeg-border hover:shadow-lg transition-all duration-300; }
+  .tag           { @apply text-xs font-semibold uppercase tracking-widest bg-aeg-orange text-white px-3 py-1 inline-block; }
+  .input         { @apply w-full border border-aeg-border px-4 py-3 text-sm font-body focus:outline-none focus:border-aeg-orange transition-colors; }
+}
+
+::-webkit-scrollbar { width: 4px; }
+::-webkit-scrollbar-thumb { background: #E8490F; }

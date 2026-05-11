@@ -1,0 +1,46 @@
+{
+  "totalMeritList": 6180,
+  "totalSelected": 5941,
+  "meritByDistrict": {
+    "Raigad": 443,
+    "Thane": 557,
+    "Bhandara": 339,
+    "Palghar": 1524,
+    "Wardha": 406,
+    "Yeotmal": 1587,
+    "Gondiya": 1324
+  },
+  "selectedByDistrict": {
+    "Raigad": 150,
+    "": 452,
+    "Bhandara": 345,
+    "Wardha": 414,
+    "Gondiya": 1343,
+    "Yeotmal": 1684,
+    "Palghar": 1551,
+    "Thane": 2
+  },
+  "genderBreakdown": {
+    "Female": 2707,
+    "Male": 3234
+  },
+  "districts": [
+    "Raigad",
+    "",
+    "Bhandara",
+    "Wardha",
+    "Gondiya",
+    "Yeotmal",
+    "Palghar",
+    "Thane"
+  ],
+  "meritDistricts": [
+    "Raigad",
+    "Thane",
+    "Bhandara",
+    "Palghar",
+    "Wardha",
+    "Yeotmal",
+    "Gondiya"
+  ]
+}
